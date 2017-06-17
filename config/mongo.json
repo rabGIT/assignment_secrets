@@ -1,0 +1,13 @@
+{
+  "development": {
+    "database": "secrets_development",
+    "host": "localhost"
+  },
+  "test": {
+    "database": "secrets_test",
+    "host": "localhost"
+  },
+  "production": {
+    "use_env_variable": "MONGODB_URI"
+  }
+}
